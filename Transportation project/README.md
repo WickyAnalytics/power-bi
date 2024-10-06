@@ -1,6 +1,8 @@
-<h1 align= center> End Product  </h1>
+<h1 align="center">End Product</h1>
 
-![Final Dashboard](https://github.com/user-attachments/assets/0e07c75c-64e4-41bd-a2e4-feb0e46655b4)
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/0e07c75c-64e4-41bd-a2e4-feb0e46655b4" alt="Final Dashboard" />
+</div>
 
 ---
 
@@ -20,19 +22,28 @@
 - Created a parameter field with values for Top 5 (1) and Bottom 5 (0) to enable custom slicers.
 - Developed dynamic strings using `IF` and `SELECTEDVALUE` to display either "Underperforming" or "Top Performing" based on the parameter selection.
 
-![Top/Bottom Performers](https://github.com/user-attachments/assets/9060694b-63ef-46b5-b6d7-a922557634bc)  ![Dynamic Performance View](https://github.com/user-attachments/assets/b1fdc829-fc48-4fdc-983e-3290124a2b80)
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/9060694b-63ef-46b5-b6d7-a922557634bc" alt="Top/Bottom Performers" />
+  <img src="https://github.com/user-attachments/assets/b1fdc829-fc48-4fdc-983e-3290124a2b80" alt="Dynamic Performance View" />
+</div>
 
 <details>
 <summary><h2>Here is the DAX Code I used to build it</h2></summary>
 
-![DAX Code Image](https://github.com/user-attachments/assets/900bead5-d6d6-4c7a-8da0-e3d1e19e9443)  
-![More DAX Code](https://github.com/user-attachments/assets/34b5600f-9eab-4ab1-8dbd-9466f69c36fe)
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/900bead5-d6d6-4c7a-8da0-e3d1e19e9443" alt="DAX Code Image" />
+  <img src="https://github.com/user-attachments/assets/34b5600f-9eab-4ab1-8dbd-9466f69c36fe" alt="More DAX Code" />
+</div>
 
 Created Parameter Field: 0 for BottomN & 1 for TopN, used for Dynamic Caption & Custom Slicer.  
-![Parameter Field](https://github.com/user-attachments/assets/8b5864b6-490a-42ec-bba5-e88dd8be3a17)
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/8b5864b6-490a-42ec-bba5-e88dd8be3a17" alt="Parameter Field" />
+</div>
 
 Dynamic Caption:  
-![Dynamic Caption](https://github.com/user-attachments/assets/ef82290a-0158-4163-996d-82250b52af6b)
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/ef82290a-0158-4163-996d-82250b52af6b" alt="Dynamic Caption" />
+</div>
 
 </details>
 
@@ -45,13 +56,18 @@ Dynamic Caption:
   - Filled icons represent the calculated percentage (e.g., for male passengers),
   - Empty icons are the remainder.
 
-![Gender Distribution](https://github.com/user-attachments/assets/8a50d40f-c4cb-4df9-b79c-076da15cc975)  ![Passenger Breakdown](https://github.com/user-attachments/assets/d6bc88b7-3506-4528-b69c-fca9f5f7cb76)
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/8a50d40f-c4cb-4df9-b79c-076da15cc975" alt="Gender Distribution" />
+  <img src="https://github.com/user-attachments/assets/d6bc88b7-3506-4528-b69c-fca9f5f7cb76" alt="Passenger Breakdown" />
+</div>
 
 <details>
 
 <summary><h2>Here is the DAX Code I used to build it</h2></summary>
 
-![Proud Moment](https://github.com/user-attachments/assets/3d889b13-7d2d-4fc7-8e49-36da375c2809)
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/3d889b13-7d2d-4fc7-8e49-36da375c2809" alt="Proud Moment" />
+</div>
 
 </details>
 
@@ -61,15 +77,19 @@ Dynamic Caption:
 - Created a table that captures peak hours for riders using `SUMMARIZE`, combining columns from different sources such as `time` from the Ridership table and a calculated column for rider type (e.g., Professional).
 - Solved for highest peak hours using `TOPN` in descending order for occupation, providing actionable insights.
 
-![Peak Hours](https://github.com/user-attachments/assets/70b20fe9-9fae-4e0c-90fe-748c8011956d)
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/70b20fe9-9fae-4e0c-90fe-748c8011956d" alt="Peak Hours" />
+</div>
 
 <details>
 
 <summary><h2>Here is the DAX Code I used to build it</h2></summary>
 
-![Peak Hours Visualization](https://github.com/user-attachments/assets/f842ae01-a4cd-44f7-86bd-431d6794bf30)  
-![Occupation Data](https://github.com/user-attachments/assets/4697331f-eb77-471a-9925-89dd613dc714)  
-![Peak Hours Chart](https://github.com/user-attachments/assets/4017153e-0a3c-4f5c-af9f-7f493a240311)
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/f842ae01-a4cd-44f7-86bd-431d6794bf30" alt="Peak Hours Visualization" />
+  <img src="https://github.com/user-attachments/assets/4697331f-eb77-471a-9925-89dd613dc714" alt="Occupation Data" />
+  <img src="https://github.com/user-attachments/assets/4017153e-0a3c-4f5c-af9f-7f493a240311" alt="Peak Hours Chart" />
+</div>
 
 </details>
 
@@ -79,12 +99,20 @@ Dynamic Caption:
 - Learned how to dynamically assign colors using hex codes based on percentage thresholds, enhancing the visual clarity of data.
 - CF (Age_group, Occupation, Route) using color "#f09383" once pass 19%.
 
-![Color Formatting](https://github.com/user-attachments/assets/a420cf4c-2e12-4a3b-89a5-43ba328e1d2b)  ![Another Example](https://github.com/user-attachments/assets/9bf974b0-ebd0-4726-ac16-72e386ac38d2)  ![Example 3](https://github.com/user-attachments/assets/1a3cfeda-efe6-432d-81fe-241af6d024da)
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/a420cf4c-2e12-4a3b-89a5-43ba328e1d2b" alt="Color Formatting" />
+  <img src="https://github.com/user-attachments/assets/9bf974b0-ebd0-4726-ac16-72e386ac38d2" alt="Another Example" />
+  <img src="https://github.com/user-attachments/assets/1a3cfeda-efe6-432d-81fe-241af6d024da" alt="Example 3" />
+</div>
 
 <details> 
 <summary><h2>Here is the DAX Code I Used to build it</h2></summary>
 
-![image](https://github.com/user-attachments/assets/bfd38ceb-d5c8-4610-83cf-e87dcec22a5d) ![image](https://github.com/user-attachments/assets/17723ad5-15db-43b1-885f-77880039a4c5) ![image](https://github.com/user-attachments/assets/7d0f8388-c6b6-4310-9ade-37770b5010dc)
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/bfd38ceb-d5c8-4610-83cf-e87dcec22a5d" alt="Example DAX" />
+  <img src="https://github.com/user-attachments/assets/17723ad5-15db-43b1-885f-77880039a4c5" alt="More DAX Examples" />
+  <img src="https://github.com/user-attachments/assets/7d0f8388-c6b6-4310-9ade-37770b5010dc" alt="DAX Image" />
+</div>
 
 </details>
 
@@ -95,25 +123,32 @@ Dynamic Caption:
   - Using a Blank Measure, giving it a value of 300 made the size of the bottom chart.
   - Manipulated the Data Label to print out the bucket Range and Percentage for each bucket.
 
-<details> 
-<summary><h2>Here is the DAX Code I Used to build it</h2></summary>
-
-![DAX Code for Age Buckets](https://github.com/user-attachments/assets/28652bec-ac2f-4040-92cb-c5b4234b42de)
-
-</details>
-
 - Created a custom age grouping column using the `FLOOR` function to categorize riders into age ranges, grouping all ages above 70 as "70+."
 - Defined bucket ranges:
   - **Bucket Start**: E.g., If age = 37, it will be floored to 30.
   - **Bucket End**: If age > 70, display "+"; otherwise, display start + 9 (e.g., 37 will become 30-39).
 - Combined the ranges using `CONCATENATE` for display purposes.
 
-![Age Distribution](https://github.com/user-attachments/assets/b6aaf458-99ca-42dc-b798-d41070dd865c)
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/b6aaf458-99ca-42dc-b798-d41070dd865c" alt="Age Distribution" />
+</div>
 
 <details> 
-<summary><h2>Here is the DAX Code I Used to build it</h2></summary>
+<summary><h2>Here is the DAX Code FOR BlankSpace Chart </h2></summary>
 
-![Age Grouping](https://github.com/user-attachments/assets/177a5a94-7bd6-4001-896b-7a29890ae266)
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/28652bec-ac2f-4040-92cb-c5b4234b42de" alt="DAX Code for Age Buckets" />
+</div>
+
+</details>
+
+<details> 
+<summary><h2>Here is the DAX Code For Custom Data Label</h2></summary>
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/177a5a94-7bd6-4001-896b-7a29890ae266" alt="Age Grouping" />
+</div>
 
 </details>
 
@@ -121,14 +156,24 @@ Dynamic Caption:
 
 ### 🚏 Route & Occupation by Riders:
 - Discovered how bar charts can be enhanced by creating custom headers using a blank measure.
-- Used the blank measure in the x-axis to act as a dynamic label, manipulating strings using `CONCATENATE` for more intuitive visuals.
+- Used the blank measure in the x-axis to act as a dynamic label showcasing the bar Undernese.
 
 ![Route Analysis](https://github.com/user-attachments/assets/3f07efb4-929b-4cf2-9fe6-bcd249a704d5)   ![Occupation by Riders](https://github.com/user-attachments/assets/0f1d6635-7c4a-4cbe-a9ee-5f650ae3ac4f)
+
+<details> 
+<summary><h2>Here is the DAX Code For Custom Data Label</h2></summary>
+
+<div align="center">
+
+  ![image](https://github.com/user-attachments/assets/6cc586e3-9f16-42eb-899c-174d90e6d800)
+</div>
+
+</details>
 
 ---
 
 <details> 
-<summary><h2>New DAX Functions Used</h2></summary>
+<summary align=center><h2>New DAX Functions Used</h2></summary>
 
 - **RANKX**:  
   `RANKX(<table>, <expression>[, <value>[, <order>[, <ties>]]])`  
@@ -159,6 +204,6 @@ Dynamic Caption:
   Repeats text a given number of times, useful for creating visual icons in text form.
 
 - **TOPN**:  
-  `TOPN(<N_Value>, <Table>, <OrderBy_Expression>, [<Order>[, <OrderBy_Expression>, [<Order>]]…])`  
+   `TOPN(<N_Value>, <Table>, <OrderBy_Expression>, [<Order>[, <OrderBy_Expression>, [<Order>]]…]) `
   Returns the top N rows of the specified table based on a ranking.
 </Details>
