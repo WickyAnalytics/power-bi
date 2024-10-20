@@ -1,112 +1,100 @@
-<h1 align="center">Full Drug Analysis</h1>
+<h1 align="center">Comprehensive Drug Sales Analysis Dashboard</h1>
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/1db76557-84fc-4bd0-ae3c-7d59f5187ef5" alt="Final Dashboard" />
-  <img src="https://github.com/user-attachments/assets/2ec0c7d5-4492-46ff-855b-f8e86118541d" alt="Final Dashboard" />
-  <img src="https://github.com/user-attachments/assets/a47d9e32-2d67-4410-a8c7-c8399b64b4e7" alt="Final Dashboard" />
+  <img src="https://github.com/user-attachments/assets/1db76557-84fc-4bd0-ae3c-7d59f5187ef5" alt="Dashboard Overview" />
+  <img src="https://github.com/user-attachments/assets/2ec0c7d5-4492-46ff-855b-f8e86118541d" alt="Dashboard Overview" />
+  <img src="https://github.com/user-attachments/assets/a47d9e32-2d67-4410-a8c7-c8399b64b4e7" alt="Dashboard Overview" />
 </div>
+
+---
+
+## Overview:
+This project includes a series of Power BI dashboards analyzing drug sales performance and customer behavior. The dashboards are designed to provide actionable insights into overall sales metrics, top/bottom drug performance, customer demographics, and sales trends. Each dashboard covers a specific aspect of the data, focusing on providing dynamic insights for decision-making.
+
+---
+
+## Dashboard 1: New Card (current/previous) Month
+
+### Key Metrics:
+- **Overall Sales Metrics**: This section includes the total quantity sold, cost of goods sold (COGS), revenue, profit, and profit margin, with a comparison between the current month and the previous month.
+- **Top and Bottom Drugs**: Displays dynamic top-performing and underperforming drugs, with the ability to filter by various measures such as sales quantity, profit, and revenue.
+- **Top and Bottom Customers**: Highlights the dynamic performance of top and underperforming customers, with percentage contribution to overall sales.
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/3671ab5e-87ee-4483-9ed5-84058a06dd14" alt="New Card" />
+</div>
+
+### Key Features:
+- Dynamic metrics for a selected month, including comparison with the previous month. Custom titles and color-coded conditions (green for positive growth, red for decline) enhance clarity.
+- Utilizes **DAX** functions to calculate performance metrics and trend indicators based on selected filters.
+- **Top N Analysis**: Dynamically filters top/bottom drugs and customers based on selected parameters such as profit, sales, and revenue. Switches between bar charts and map visualizations for geographical insights.
+
+## Dashboard 2,3: Top/Bottom 
+<div align="Left">
+  <img src="https://github.com/user-attachments/assets/d5b60fa0-1fd8-4f5e-b00d-4a81bfaa69bf" /> 
+  <img src="https://github.com/user-attachments/assets/e5772ff5-1b1d-43a9-8dfe-44a2641ba8fd" alt=" New Card" />
+</div>
+
+
+
+<details>
+  <summary><h2>Top/Bottom Analysis DAX Code</h2></summary>
+
+  <div align="center">
+    <img src="https://github.com/user-attachments/assets/7df9944f-6125-4f46-bd49-1a266484134a" alt=" DAX Code for Top/Bottom Drugs" />
+    <img src="https://github.com/user-attachments/assets/f1928c24-29ff-4718-b3b0-f58953592453" alt=" DAX Code for Top/Bottom Customers" />
+    <img src="https://github.com/user-attachments/assets/a40375b7-c961-421d-97a2-42e79088b754" alt=" DAX Code "  />
+    <img src="https://github.com/user-attachments/assets/e9e68118-2059-4515-9f4b-b8bc7d1a082f" alt=" DAX Code " />
+  </div>
+
+</details>
+
+---
+
+## Dashboard 2: Customer Analysis
+
+### Key Metrics:
+- **Customer Demographics**: Displays the total number of customers, average revenue per customer, and revenue distribution across different demographics.
+- **Revenue by Demographics**: Breaks down revenue by age group and gender to identify customer trends and behavior patterns.
+- **Geographical Insights**: Highlights revenue distribution by country, focusing on the top 2 revenue-generating countries.
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/0385b384-2b56-4bc1-b764-54b6faea4047" alt="Customer Analysis Dashboard" />
+</div>
+
+### Key Features:
+- **Revenue by Country**: A geographical map displaying sales distribution, including insights into buyer type and demographic preferences.
+- **Demographic Segmentation**: Utilizes **stacked bar charts** and **donut charts** to visualize revenue share by gender and age groups. 
+
+
+---
+
+## Dashboard 3: Trend Analysis
+
+### Key Metrics:
+- **Revenue and Transaction Trends**: Analyzes yearly and quarterly revenue and the total number of transactions.
+- **Month-over-Month Revenue Changes**: Tracks monthly revenue trends and provides detailed insights into the changes for each month.
+- **Weekday Sales Analysis**: Breaks down revenue by weekdays, identifying the top-selling drugs for each day.
+
+<div>
+  <img src="https://github.com/user-attachments/assets/496df153-d905-432e-b1ca-12e740fb8dc3" alt="Trend Analysis Dashboard" /> <img src="https://github.com/user-attachments/assets/02fb1405-680d-4ce3-864a-63887b5fd2c9" alt="Trend Analysis Dashboard" />
+</div>
+
+### Key Features:
+- **Revenue Trends**: Line charts showing revenue growth by quarter and year, with markers indicating the highest and lowest points of sales.
+- **Weekday Insights**: Uses a **matrix table** and **heatmap** to display sales distribution across the week, with highlighted top drugs sold per day.
+
 
 ---
 
 ## 📚 Key Learnings:
-- learned to manipulate titles and make color conditions on everything which enhanced my creativity and product quality.
-- learned the difference between filled, shaped, and other 
-- used a custom Atlas map: [Map Github](https://github.com/topojson/world-atlas?tab=readme-ov-file)
-- learned to use selection, bookmark used it on an empty button, page mark, bookmark navigator
-- Simplified visualizations to display only relevant data, avoiding unnecessary complexity in the analysis.
-- Optimized calculations by leveraging columns and tables instead of relying solely on measures, reducing duplicated logic.
-- Used **Flat Icon** for custom icons: [Flat Icon Link](https://www.flaticon.com/).
+- Mastered using dynamic measures to calculate and compare current vs. previous months' metrics.
+- Leveraged **DAX** functions to create top/bottom analyses for drugs and customers dynamically, controlling visuals with **parameters** and **sliders**.
+- Gained experience with **custom tooltips**, **bookmarks**, and **page navigation** to enhance interactivity.
+- Utilized **maps** for geographical insights and custom visuals to display demographic and trend data effectively.
 
 ---
 
-# 📅 Top/Bottom drugs & Customer:
-## new card
-![image](https://github.com/user-attachments/assets/3671ab5e-87ee-4483-9ed5-84058a06dd14)
-- using simple Dax function to get total quantity, COGS, Revenue, Profit,% profit
-- calculating the current calculation on the selected month and having a custom title pointing to the selected month
-- learned how to use the referenced Labels providing it (Ref: Previous month, Percentage), Color condition to green and red if more then or less then current month
-- calculated the previous month's calculation which appears after selecting the month (currently selected month-1) but if selected month = "Jan" it won't appear
-
-<details>
-  <summary><h2>Open Filter</h2></summary>
-
-  <div align="center">
-    <img src="https://github.com/user-attachments/assets/a70a28dd-9e04-4431-bc38-4023d8c4fde9)" alt="Open Filter" />
-  </div>
-
-</details>
-
-
-<details>
-  <summary><h2>DAX Code for New Card Refernce</h2></summary>
-
-  <div align="center">
-    <img src="https://github.com/user-attachments/assets/ebe75825-8fdc-4a52-8202-5360c313acef" alt="DAX Code 1" />
-    <img src="https://github.com/user-attachments/assets/bd57a956-8008-4130-ad13-565bd7d130dd" alt="DAX Code 2" />
-    <img src="https://github.com/user-attachments/assets/98443017-f72a-440c-b394-5d81d4009f60" alt="DAX Code 3" />
-    <img src="https://github.com/user-attachments/assets/278a11e6-6a43-44a7-acd8-bbbc6bf104c5" alt="DAX Code 4" />
-  </div>
-
-</details>
-
-## 📈 Top/Bottom For Drugs & Customers :
-  
-<div align="center">
-   <img src="https://github.com/user-attachments/assets/86f039e9-82b7-47fd-b976-c1623ec4ee15" alt="Patients Analysis"/> <img src="https://github.com/user-attachments/assets/5a0ff4ef-80ce-4c50-bbf4-9a29dd4dbc4c" alt="Patients Analysis"/>
-
-</div>
-- this part utilizes topN and the n is a dynamic chosen by the slider  (numerical Parameter)
-- Top or Bottom to control the result by changing from Desc To Asc  (Field Parameter)
-- # Transaction, Profit, Revenue, Unit Sold (Field Parameter)
-- all those 3 control the graph and control the captions 
-- switch between map and bar chart
-
-![image](https://github.com/user-attachments/assets/1287e3b7-a7fd-4fcd-ac52-2a9d8a0dad62)
-
-
-<details>
-  <summary><h2>DAX Code for Top/Bottom Calculation</h2></summary>
-
-  <div align="center">
-    <img src="https://github.com/user-attachments/assets/7df9944f-6125-4f46-bd49-1a266484134a" alt="DAX Code 1" />
-    <img src="https://github.com/user-attachments/assets/825933d1-1628-4f9c-9f35-7fcbacd6b86f" alt="DAX Code 2" />
-    <img src="https://github.com/user-attachments/assets/f1928c24-29ff-4718-b3b0-f58953592453" alt="DAX Code 3" />
-    <img src="https://github.com/user-attachments/assets/c44b30d1-669b-403e-a370-4cbbed5c287f" alt="DAX Code 4" />
-  </div>
-<details>
- <summary><h2>DAX Code for Top/Bottom Title</h2></summary>
-  <img src="https://github.com/user-attachments/assets/a40375b7-c961-421d-97a2-42e79088b754" alt="DAX Code 1" />
-  <img src="https://github.com/user-attachments/assets/e9e68118-2059-4515-9f4b-b8bc7d1a082f" alt="DAX Code 1" />
-
-</details>
-</details>
-
----
-
-
-# 📅 Customer Analysis Dashboard:
-
-![image](https://github.com/user-attachments/assets/0385b384-2b56-4bc1-b764-54b6faea4047)
-
-- learned maps 
-- learned donut charts & Stacked Bard Chart to make calculations, 1.0 - calculations  to get the remaining
-- learned that text box can use values functions instead of making a card and using complex functions this made it much easier 
-
----
-# 📅 Detailed Time Analysis Dashboard:
-
-![image](https://github.com/user-attachments/assets/0385b384-2b56-4bc1-b764-54b6faea4047)
-![image](https://github.com/user-attachments/assets/496df153-d905-432e-b1ca-12e740fb8dc3)
-
-- learned to use a matrix table and use its cells' element visual function
-- switch between chart and Hitmap (Matrix Table)
-
-<details>
-  <summary><h2>Open Filter</h2></summary>
-
-  <div align="center">
-    <img src="https://github.com/user-attachments/assets/a00b8a43-2cba-4075-bcaf-99a21f7b560a)" alt="Open Filter" />
-  </div>
-
-</details>
-
+### Useful Resources:
+- **Flat Icon** for custom icons: [Flat Icon Link](https://www.flaticon.com/)
+- **Atlas Map** for custom geographical maps: [Atlas Map Link](https://github.com/topojson/world-atlas?tab=readme-ov-file)
