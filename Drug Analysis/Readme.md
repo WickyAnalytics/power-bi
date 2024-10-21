@@ -1,5 +1,8 @@
 <h1 align="center">Comprehensive Drug Sales Analysis Dashboard</h1>
 
+## Overview:
+This project presents a comprehensive Power BI dashboard analyzing drug sales data from multiple angles. The dashboards cover overall sales metrics, top and bottom performers, customer demographics, and sales trends. Each dashboard provides dynamic insights that can be customized for decision-making.
+
 <div align="center">
   <img src="https://github.com/user-attachments/assets/1db76557-84fc-4bd0-ae3c-7d59f5187ef5" alt="Dashboard Overview" />
   <img src="https://github.com/user-attachments/assets/2ec0c7d5-4492-46ff-855b-f8e86118541d" alt="Dashboard Overview" width="49%" />
@@ -8,41 +11,34 @@
 
 ---
 
-## Overview:
-This project includes a series of Power BI dashboards analyzing drug sales performance and customer behavior. The dashboards are designed to provide actionable insights into overall sales metrics, top/bottom drug performance, customer demographics, and sales trends. Each dashboard covers a specific aspect of the data, focusing on providing dynamic insights for decision-making.
-
----
 <details>
-  <summary><h2> First Dashboard: Drug Analysis </h2></summary>
+  <summary><h2>Dashboard 1: Top/Bottom Analysis</h2></summary>
 
-![Screenshot 2024-10-20 222525](https://github.com/user-attachments/assets/8a65d283-a418-4ce0-a089-891c077dc177)
-
-
-## New Card (current/previous) Month
+![Screenshot](https://github.com/user-attachments/assets/8a65d283-a418-4ce0-a089-891c077dc177)
 
 ### Key Metrics:
-- **Overall Sales Metrics**: This section includes the total quantity sold, cost of goods sold (COGS), revenue, profit, and profit margin, with a comparison between the current month and the previous month.
-- **Top and Bottom Drugs**: Displays dynamic top-performing and underperforming drugs, with the ability to filter by various measures such as sales quantity, profit, and revenue.
-- **Top and Bottom Customers**: Highlights the dynamic performance of top and underperforming customers, with percentage contribution to overall sales.
+- **Overall Sales Metrics**: Displays total quantity sold, cost of goods sold (COGS), revenue, profit, and profit margin. A comparison between the current and previous months is included.
+- **Top and Bottom Drugs**: Dynamic ranking of top-performing and underperforming drugs, with insights based on selected measures (quantity, revenue, profit).
+- **Top and Bottom Customers**: Similar dynamic ranking for customers, showing percentage contributions to total sales.
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/3671ab5e-87ee-4483-9ed5-84058a06dd14" alt="New Card" />
 </div>
 
 ### Key Features:
-- Dynamic metrics for a selected month, including comparison with the previous month. Custom titles and color-coded conditions (green for positive growth, red for decline) enhance clarity.
-- Utilizes **DAX** functions to calculate performance metrics and trend indicators based on selected filters.
-- **Top N Analysis**: Dynamically filters top/bottom drugs and customers based on selected parameters such as profit, sales, and revenue. Switches between bar charts and map visualizations for geographical insights.
+- Month-over-month comparisons of key metrics, with color-coded visual indicators (green for growth, red for decline).
+- Dynamic top/bottom analysis using **DAX** to filter results by selected measures such as sales quantity, profit, and revenue.
+- Bar charts and map visualizations switch based on user-selected filters for geographical insights.
 
-##  Top/Bottom 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/d5b60fa0-1fd8-4f5e-b00d-4a81bfaa69bf" alt="Top Bottom 1" width="45%" /> 
-  <img src="https://github.com/user-attachments/assets/e5772ff5-1b1d-43a9-8dfe-44a2641ba8fd" alt="Top Bottom 2" width="45%" />
+  <img src="https://github.com/user-attachments/assets/d5b60fa0-1fd8-4f5e-b00d-4a81bfaa69bf" alt="Top Bottom 1" width="49%" /> 
+  <img src="https://github.com/user-attachments/assets/e5772ff5-1b1d-43a9-8dfe-44a2641ba8fd" alt="Top Bottom 2" width="49%" />
 </div>
 
 
 
 <details>
+
   <summary><h2>Top/Bottom Analysis DAX Code</h2></summary>
 
   <div align="center">
@@ -58,58 +54,56 @@ This project includes a series of Power BI dashboards analyzing drug sales perfo
 
 ---
 <details>
-  <summary><h2> Second Dashboard: Customer Analysis </h2></summary>
+  <summary><h2>Dashboard 2: Customer Analysis</h2></summary>
 
 ### Key Metrics:
-- **Customer Demographics**: Displays the total number of customers, average revenue per customer, and revenue distribution across different demographics.
-- **Revenue by Demographics**: Breaks down revenue by age group and gender to identify customer trends and behavior patterns.
-- **Geographical Insights**: Highlights revenue distribution by country, focusing on the top 2 revenue-generating countries.
+- **Customer Demographics**: Displays the total number of customers and the average revenue per customer, along with revenue distribution by customer type.
+- **Revenue by Demographics**: Provides insights into revenue by gender and age group.
+- **Geographical Insights**: Highlights the top two revenue-generating countries.
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/0385b384-2b56-4bc1-b764-54b6faea4047" alt="Customer Analysis Dashboard" />
 </div>
 
 ### Key Features:
-- **Revenue by Country**: A geographical map displaying sales distribution, including insights into buyer type and demographic preferences.
-- **Demographic Segmentation**: Utilizes **stacked bar charts** and **donut charts** to visualize revenue share by gender and age groups. 
+- Geographical map visualizes revenue distribution by country, with a focus on the top two.
+- Stacked bar charts and donut charts are used to show demographic breakdowns by gender and age group.
 
-</Details>
+</details>
 
 ---
  
 <details>
-  <summary><h2> Third Dashboard: Trend Analysis </h2></summary>
+  <summary><h2>Dashboard 3: Trend Analysis</h2></summary>
 
-![Screenshot 2024-10-20 222437](https://github.com/user-attachments/assets/006f10fb-7ecc-4dda-b473-3e552f854937)
-
+![Screenshot](https://github.com/user-attachments/assets/006f10fb-7ecc-4dda-b473-3e552f854937)
 
 ### Key Metrics:
-- **Revenue and Transaction Trends**: Analyzes yearly and quarterly revenue and the total number of transactions.
-- **Month-over-Month Revenue Changes**: Tracks monthly revenue trends and provides detailed insights into the changes for each month.
-- **Weekday Sales Analysis**: Breaks down revenue by weekdays, identifying the top-selling drugs for each day.
+- **Revenue and Transaction Trends**: Yearly and quarterly revenue and transaction trends are highlighted, alongside key performance indicators.
+- **Month-over-Month Revenue Changes**: Detailed analysis of monthly revenue trends, comparing current and previous periods.
+- **Weekday Sales Analysis**: Breakdown of revenue by weekday, with identification of the top-selling drugs for each day.
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/496df153-d905-432e-b1ca-12e740fb8dc3" alt="Trend Analysis Dashboard 1" width="45%" /> 
-  <img src="https://github.com/user-attachments/assets/02fb1405-680d-4ce3-864a-63887b5fd2c9" alt="Trend Analysis Dashboard 2" width="45%" />
+  <img src="https://github.com/user-attachments/assets/496df153-d905-432e-b1ca-12e740fb8dc3" alt="Trend Analysis Dashboard 1" width="49%" /> 
+  <img src="https://github.com/user-attachments/assets/02fb1405-680d-4ce3-864a-63887b5fd2c9" alt="Trend Analysis Dashboard 2" width="49%" />
 </div>
 
 ### Key Features:
-- **Revenue Trends**: Line charts showing revenue growth by quarter and year, with markers indicating the highest and lowest points of sales.
-- **Weekday Insights**: Uses a **matrix table** and **heatmap** to display sales distribution across the week, with highlighted top drugs sold per day.
+- Line charts illustrate revenue growth over time, with markers showing peak and low sales periods.
+- Heatmaps and matrix tables are used to analyze sales by weekday, with highlighted top-performing drugs for each day.
 
 <div align="center">
-  <img src= https://github.com/user-attachments/assets/12249335-9c07-4895-8876-c0dfa9092ac6 alt = "MoM"/>
+  <img src="https://github.com/user-attachments/assets/12249335-9c07-4895-8876-c0dfa9092ac6" alt="MoM Analysis" />
 </div>
 
 <details>
-  <summary><h2>MoM Dax Code</h2></summary>
+  <summary><h2>DAX Code for Month-over-Month (MoM) Analysis</h2></summary>
 
   <div align="center">
-    <img src="https://github.com/user-attachments/assets/3e2ac176-d4de-4a04-b9f2-9b8ab8424527" alt=" DAX Code for MoM" />
-    <img src="https://github.com/user-attachments/assets/d218438e-391f-4f4c-9e7d-51f426160c6e" alt=" DAX Code for MoM" />
+    <img src="https://github.com/user-attachments/assets/3e2ac176-d4de-4a04-b9f2-9b8ab8424527" alt="DAX Code for MoM" />
+    <img src="https://github.com/user-attachments/assets/d218438e-391f-4f4c-9e7d-51f426160c6e" alt="DAX Code for MoM" />
   </div>
 
-</details>
 </details>
 
 ---
