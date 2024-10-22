@@ -56,17 +56,31 @@ This project presents a comprehensive Power BI dashboard analyzing drug sales da
 <details>
   <summary><h2>Dashboard 2: Customer Analysis</h2></summary>
 
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/0385b384-2b56-4bc1-b764-54b6faea4047" alt="Customer Analysis Dashboard" />
+</div>
+
 ### Key Metrics:
 - **Customer Demographics**: Displays the total number of customers and the average revenue per customer, along with revenue distribution by customer type.
 - **Revenue by Demographics**: Provides insights into revenue by gender and age group.
 - **Geographical Insights**: Highlights the top two revenue-generating countries.
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/0385b384-2b56-4bc1-b764-54b6faea4047" alt="Customer Analysis Dashboard" />
+  <img src="https://github.com/user-attachments/assets/ae5ccfe8-d595-4d31-bb73-405f6dd073c0" alt="donut Chart"/>
 </div>
 
 ### Key Features:
-- Geographical map visualizes revenue distribution by country, with a focus on the top two.
+- using calculation function to filter by gender= "male", "female", "other"
+- note: The donut chart needs at least 2 measures knowing that made 1.0 - Male to get the rest of "female: and "other"
+- same concept implemented on a stacked bar chart (the stacked bar chart doesn't have the condition of 2 measures)
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/506c2c8f-1761-44aa-887c-15e87c126a22" alt="Customer Analysis Dashboard" />
+  <img src="https://github.com/user-attachments/assets/c09febaa-facf-46e3-a6e4-af4f58f62cbe" alt="Customer Analysis Dashboard" />
+</div>
+
+### Key Features:
+A geographical map visualizes revenue distribution by country, with a focus on the top two.
 - Stacked bar charts and donut charts are used to show demographic breakdowns by gender and age group.
 
 </details>
